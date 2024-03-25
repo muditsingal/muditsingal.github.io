@@ -1,2 +1,1 @@
-# muditsingal.github.io
-Mudit's Portfolio
+# [Mudit's Portfolio](https://muditsingal.github.io)
