@@ -218,8 +218,9 @@ a:hover {
 
 strong,
 b {
-	color: #300c7ccc;
-	font-weight: 400;
+	color: #7f0c7cae;
+	font-weight: 820;
+
 }
 
 em,
@@ -238,7 +239,7 @@ h4,
 h5,
 h6 {
 	color: #000000;
-	font-weight: 400;
+	font-weight: 450;
 	line-height: 1em;
 	margin: 0 0 1em 0;
 }
@@ -264,18 +265,18 @@ h2 {
 }
 
 h3 {
-	font-size: 1.25em;
+	font-size: 1.35em;
 	line-height: 1.5em;
 }
 
 h4 {
-	font-size: 1.1em;
-	line-height: 1.5em;
+	font-size: 1.15em;
+	line-height: 1.4em;
 }
 
 h5 {
-	font-size: 0.9em;
-	line-height: 1.5em;
+	font-size: 1.05em;
+	line-height: 1.35em;
 }
 
 h6 {
