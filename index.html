@@ -14,8 +14,8 @@
 	<header id="header">
 		<div class="inner">
 			<a href="#" class="image avatar"><img src="images/profile_pic.jpg" alt="Profile pic" /></a>
-			<h2><strong> Graduate Research Assistant </strong></h2>
-			<h1>Currently working at UMD</h1>
+			<h2><strong> Software Engineer </strong></h2>
+			<h1>University of Maryland</h1>
 			<h1>College Park, MD</h1>
 		</div>
 	</header>
@@ -27,14 +27,14 @@
 			<header class="major">
 				<h2>Mudit Singal</h2>
 			</header>
-			<h3><b> Robotics Engineer | Autonomous Vehicles | Mobile Robotics </b></h3>
-			<p>Currently working on research on autonomous e-scooters at the University of Maryland, College Park to improve localization capabilities.</p>
-			<p>I have worked on various projects ranging from autonomous vehicles to robotics software development, leveraging technologies such as ROS, Docker, OpenCV, and PyTorch. I have contributed significantly to the design and assembly of autonomous systems, developing real-time algorithms for robotic tasks, and software deployment using containerization techniques. These experiences have honed my skills in robotics software development and embedded systems.</p>
-			<p>Additionally, I have a solid background in data engineering, demonstrated during my tenure at Tata Digital Ltd, where I optimized SQL queries and resolved high-priority production defects, significantly improving system performance and reliability. My proficiency in Agile methodologies and collaboration with cross-functional teams facilitated efficient problem-solving and project execution.</p>
-			<p>My diverse experiences across research, industry, and academic projects reflect a strong foundation in robotics, autonomous vehicles, software development, and data engineering. My proactive approach, coupled with technical proficiency and collaborative spirit, positions me as a valuable asset in software development teams, driving innovation and achieving impactful results.</p>
+			<h3><b> Robotics Engineer | Aerial Robotics | Autonomous Vehicles </b></h3>
+			<p>I am passionate about advancing drone autonomy and autonomous vehicles by employing cutting-edge research into software and hardware solutions. At the University of Maryland, I led a team in developing a 5G public safety drone network, integrating AI-driven human tracking, 5G-enabled BVLOS operations, and MAVLink-based communication. My work also includes containerizing PX4 simulation environment for seamless development of perception and localization modules in simulated environments.</p>
+			<p>My research spans autonomous ground vehicles, where I built an AI-powered e-scooter with real-time localization and computer vision algorithms. Using ROS, Python, and deep learning, I developed a homography-based pose estimation system by leveraging stop signs as visual landmarks. I also containerized multiple perception modules with Docker and GPU acceleration, optimizing performance for embedded platforms.</p>
+			<p>I contributed to Carla Sim by developing a GPU-accelerated Docker image with ROS2 bridge, enabling quick setup and deployment of simulation environments for autonomous vehicle research. This image has been downloaded by 50+ researchers and engineers.</p>
+			<p>As an engineer, I bring expertise in robotics software, embedded systems, and AI-driven autonomy. I excel at integrating diverse technologies, optimizing performance, and developing scalable autonomy solutions. I thrive in collaborative environments and am eager to contribute to teams tackling real-world robotics challenges. Let’s connect and innovate together!</p>
 			
 			<ul class="actions">
-				<li><a href="https://drive.google.com/file/d/1FIHDRhpGxO0NLDolc3yNk907QppWtyP4/view?usp=sharing" class="button">Resume</a></li>
+				<li><a href="https://drive.google.com/file/d/1_yvPt1HY0ocM1dvqTFGNjWrMBDQY_J1y/view?usp=sharing" class="button">Resume</a></li>
 			</ul>
 		</section>
 
@@ -45,10 +45,10 @@
 			</header>
 			<ul>
 				<li><b>Languages:</b> C/C++, Python, Embedded C, MATLAB, SQL</li>
-				<li><b>Robotics Development:</b> Localization, Perception, Path Planning, Simulation of AVs, Reinforcement Learning</li>
-				<li><b>Software Libraries and Tools:</b> OpenCV, YOLOv7, PyTorch, CARLA(Unreal Engine), Autoware Universe, TensorFlow, scikit-learn, ROS2, SLAM, SolidWorks, Fusion360</li>
+				<li><b>Robotics Development:</b> Localization, Perception, Path Planning, Simulation of autonomous agents, Reinforcement Learning</li>
+				<li><b>Software Libraries and Tools:</b> ROS2, OpenCV, YOLOv7, PyTorch, MAVROS, MAVLink, PX4, CARLA(Unreal Engine), Autoware Universe, TensorFlow, scikit-learn, SolidWorks</li>
 				<li><b>Software Development:</b> Git, Docker, CMake, Google Test, CodeCov, Jira</li>
-				<li><b>Currently Learning:</b> Localization, State Estimation, and DGPS</li>
+				<li><b>Currently Learning:</b> Localization, State Estimation, and MAVROS</li>
 			</ul>
 		</section>
 
@@ -149,15 +149,23 @@
 				<h3>Work Experience</h3>
 			</header>
 			<ul>
-				<h4><b> ReZoom - Autonomous E-Scooter, University of Maryland | College Park, MD | Feb 2023 - Present </b></h4>
+				<h4><b> University of Maryland | College Park, MD | Jun 2024 - Present </b></h4>
+				<h5>Software Engineer </h5>
+				<li>Led a team of 5 for the development of hardware and software modules of a 5G public safety drone network.</li>
+				<li>Engineered a human tracking module for a gimbaled UAV using YOLO, MAVROS, Python, and PX4 simulator.</li>
+				<li>Dockerized the official PX4 repo to run perception and localization modules in the Sonoma Raceway gazebo world.</li>
+				<li>Interfaced a 5G modem with Jetson Orin NX, enabling BVLOS drone operation using 5G network, Tailscale, and MAVLink.</li>
+			</ul>
+			<ul>
+				<h4><b> ReZoom - Autonomous E-Scooter, University of Maryland | College Park, MD | Feb 2023 - May 2024 </b></h4>
 				<h5>Research Assistant </h5>
 				<li>Designed and assembled 3rd version of the e-scooter using Fusion 360, 3D printing on UltiMaker S5, Nvidia Jetson Orin, Zed2i
 					stereo camera, Phiget IMU, Reach M+ GPS, ODrive BLDC motor controller, and optical encoders.
 				</li>
-				<li>Conceptualized and implemented a Homography-based algorithm to estimate e-scooter pose w.r.t. stop signs using YoloV7,
-					Python, ROS TF, OpenCV, and PyTorch, achieving a real-time frame rate of 15 Hz.
+				<li>Conceptualized and developed a Homography-based vehicle localization algorithm to estimate e-scooter pose w.r.t. 
+					stop signs using YoloV7, Python, ROS TF, OpenCV, and PyTorch, achieving a real-time frame rate of 15 Hz on Jetson Orin.
 				</li>
-				<li>Currently working on containerizing ROS modules using Docker with Nvidia CUDA acceleration and USB port forwarding.</li>
+				<li>Containerized 3 computer vision ROS modules using Docker with Nvidia CUDA acceleration and USB port forwarding.</li>
 			</ul>
 			<ul>
 				<h4><b>RAAS Lab, University of Maryland | College Park, MD | Aug 2023 - Dec 2023 </b></h4>
@@ -200,7 +208,7 @@
 							class="label">Github</span></a></li>
 			</ul>
 			<ul class="copyright">
-				<li>&copy; 2024 Mudit Singal</li>
+				<li>&copy; 2025 Mudit Singal</li>
 			</ul>
 		</div>
 	</footer>
